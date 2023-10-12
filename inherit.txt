@@ -1,0 +1,9 @@
+Two uses I can think of for why you would use inheritance in programming is:
+
+1) Instead of rewriting or duplicating code, you can use a base class such as 
+"Parent" and have classes under it like "Daughter" and "Son" where they share 
+attributes from "Parent" class, for example: eye_color = blue or hair_type = curly.
+
+2) Adding onto this, you can also expand upon or override specific attributes defined 
+in the base class within the subclasses which means there's more flexibilty for code 
+later on.
