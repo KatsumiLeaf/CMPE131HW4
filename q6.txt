@@ -1,0 +1,10 @@
+1) The change inside increment_int_a does not change the variable 'a' after the function is called.
+
+2) The change inside increment_int_b does change the variable 'b' after the function is called.
+
+3) They differ because increment_int_a is passing by value of an integer vs increment_int_b which
+is passing by reference of a dictionary. For increment_int_a, you created an integer 'a = 32' which 
+is an immutable(unmodifiable) object and even though the function is called, it does not change the 
+original variable 'a'. For increment_int_b, you created a dictionary 'b = {'32':0}' which is a 
+mutable (modifiable) objectand by calling the function, it is able to change the 0 to a 1 as a pass
+by reference.
