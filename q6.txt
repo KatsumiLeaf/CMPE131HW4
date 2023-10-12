@@ -6,5 +6,5 @@
 is passing by reference of a dictionary. For increment_int_a, you created an integer 'a = 32' which 
 is an immutable(unmodifiable) object and even though the function is called, it does not change the 
 original variable 'a'. For increment_int_b, you created a dictionary 'b = {'32':0}' which is a 
-mutable (modifiable) objectand by calling the function, it is able to change the 0 to a 1 as a pass
+mutable (modifiable) object and by calling the function, it is able to change the 0 to a 1 as a pass
 by reference.
