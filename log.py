@@ -1,3 +1,5 @@
+import time
+
 def timestamp(func):
     def time(*args, **kwargs):
         print(time.ctime())
